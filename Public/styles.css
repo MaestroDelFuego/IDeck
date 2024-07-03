@@ -1,0 +1,71 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+                .time {
+                    font-size: 60px; /* Font size for time */
+                    font-weight: bold; /* Bold text for time */
+                    text-shadow: 2px 2px 4px #000000; /* Text shadow for time */
+                }
+                .date {
+                    font-size: 20px; /* Font size for date */
+                    font-weight: bold; /* Bold text for date */
+                    text-shadow: 2px 2px 4px #000000; /* Text shadow for date */
+                    color: rgb(255, 255, 255);     /* Optional: Different color for date */
+                }
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons button {
+    background-color: #282c34c0;
+    border: 1px solid #444;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons button i {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.buttons button:hover {
+    background-color: #3a3f47;
+    transform: scale(1.05);
+}
+
+        .weather {
+                    font-size: 20px; /* Font size for date */
+                    font-weight: bold; /* Bold text for date */
+                    text-shadow: 2px 2px 4px #000000; /* Text shadow for date */
+                    color: rgb(255, 255, 255);     /* Optional: Different color for date */
+        }

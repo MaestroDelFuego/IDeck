@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Deck</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">   
+        <div class="time" id="time">Loading time...</div>
+        <div class="date" id="date">Loading date...</div>
+        <div class="weather" id="weather">Loading weather...</div>
+        <br>
+        <br>
+        <br>
+        <div class="buttons">
+            <button onclick="openApp('google')"><i class="fab fa-google"></i> Google</button>
+            <button onclick="openApp('edge')"><i class="fab fa-edge"></i> Edge</button>
+            <button onclick="openApp('discord')"><i class="fab fa-discord"></i> Discord</button>
+            <button onclick="openApp('rockstar')"><i class="fas fa-gamepad"></i> Rockstar Games</button>
+            <button onclick="openApp('steam')"><i class="fab fa-steam"></i> Steam</button>
+            <button onclick="openApp('epic')"><i class="fas fa-store"></i> Epic Games</button>
+            <button onclick="openApp('ubisoft')"><i class="fas fa-gamepad"></i> Ubisoft Connect</button>
+            <button onclick="openApp('spotify')"><i class="fab fa-spotify"></i> Spotify</button>
+            <button onclick="openApp('youtube')"><i class="fab fa-youtube"></i> Youtube</button>       
+            <button onclick="openApp('twitch')"><i class="fab fa-twitch"></i> Twitch</button>
+            <button class="open-chatgpt" onclick="openChatGPT()"><i class="fas fa-comment-dots"></i> ChatGPT</button>
+            <button class="shutdown" onclick="powerDown()"><i class="fas fa-power-off"></i> Power Down</button>
+            <button class="restart" onclick="restart()"><i class="fas fa-redo"></i> Restart</button>
+            <button class="lock" onclick="lock()"><i class="fas fa-lock"></i> Lock</button>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
